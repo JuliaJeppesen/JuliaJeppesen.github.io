@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docencia EIR Matronas - Unidad Docente</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración de la fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Color de fondo claro */
+            color: #334155; /* Color de texto principal */
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .section-title {
+            /* Se ha cambiado el color del borde a un azul que coincide con el encabezado */
+            border-left: 6px solid #1c4d71; /* Color azul oscuro del gradiente del header */
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        /* Se ha añadido una clase para el color de texto de los títulos de sección */
+        .section-title-text {
+            color: #2563eb; /* Un tono de azul que complementa el header */
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .youtube-embed {
+            width: 100%;
+            aspect-ratio: 16 / 9; /* Mantener relación de aspecto 16:9 */
+            border-radius: 0.75rem;
+        }
+        /* Estilos para la tabla de la rúbrica */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            border: 1px solid #cbd5e1; /* Color de borde de tabla */
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #e2e8f0; /* Color de fondo para encabezados de tabla */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <!-- Se ha ajustado el gradiente de color para que coincida mejor con el nuevo logo. -->
+    <header class="bg-gradient-to-r from-[#1c4d71] to-[#50a7c4] text-white p-6 md:p-8 rounded-b-xl shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <!-- El logo ha sido eliminado según la solicitud del usuario. -->
+            <div class="text-center md:text-left">
+                <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+                    Docencia EIR Matronas
+                </h1>
+                <p class="text-xl md:text-2xl mt-2 font-light">
+                    Unidad Docente Multiprofesional de Obstetricia y Ginecología de Las Palmas
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto p-6 pt-8 md:p-8">
+
+        <!-- Introduction Section -->
+        <section class="card mb-8">
+            <!-- Se ha cambiado el color del título de bienvenida a un tono de azul. -->
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Bienvenida a la Unidad de Embriología</h2>
+            <p class="text-lg mb-6">
+                ¡Bienvenidas a la unidad de Embriología para EIR Matronas! Aquí encontrarán un espacio dinámico y completo diseñado para profundizar en los procesos clave del desarrollo embrionario, la teratogenia y la prevención de anomalías congénitas. Nuestra metodología combina microaprendizaje, gamificación y colaboración para asegurar un aprendizaje significativo y aplicable a su futuro rol profesional.
+            </p>
+            <p class="text-lg mb-6">
+                Para comenzar, les invitamos a ver este video introductorio de nuestro canal de YouTube:
+            </p>
+            <!-- YouTube Video Embed -->
+            <div class="relative overflow-hidden rounded-xl">
+                <!-- El video ahora debería cargarse correctamente si está público o no listado. -->
+                <iframe class="youtube-embed" src="https://www.youtube.com/embed/2jITJ6M4lNs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-4">
+                *Si el video no se reproduce, por favor, verifique la URL o su disponibilidad.
+            </p>
+        </section>
+
+        <!-- Fase 1: Microaprendizaje con Multimedia -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold section-title section-title-text">FASE 1: Microaprendizaje con Multimedia (Acceso virtual)</h2>
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Recursos: Videos animados de 5 minutos</h3>
+                <ul class="list-disc pl-5 space-y-2 text-lg">
+                    <li><a href="https://youtu.be/g7FExgKr-x4" target="_blank" class="text-blue-600 hover:underline">1. Fecundación hasta gastrulación en una estructura clara y visual.</a></li>
+                    <li><a href="https://youtu.be/2bKrYY_Eayc" target="_blank" class="text-blue-600 hover:underline">2. Segmentación, blastocisto e implantación.</a></li>
+                    <li><a href="https://youtu.be/7SK-WPnF1Dc" target="_blank" class="text-blue-600 hover:underline">3. Gastrulación y capas germinativas.</a></li>
+                    <li><a href="https://youtu.be/Fyiumno87H4" target="_blank" class="text-blue-600 hover:underline">4. Neurulación y desarrollo del tubo neural.</a></li>
+                    <li><a href="https://youtu.be/R81ahD_lbtl" target="_blank" class="text-blue-600 hover:underline">5. Desarrollo de órganos y placenta.</a></li>
+                    <li><a href="https://youtu.be/1zpV5rzWXMA" target="_blank" class="text-blue-600 hover:underline">6. Teratogenia y anomalías congénitas (Parte 1)</a></li>
+                    <li><a href="https://youtu.be/VoaxRbve42o" target="_blank" class="text-blue-600 hover:underline">6. Teratogenia y anomalías congénitas (Parte 2)</a></li>
+                    <li><a href="https://youtu.be/YIJUL64gi9s" target="_blank" class="text-blue-600 hover:underline">6. Teratogenia y anomalías congénitas (Parte 3)</a></li>
+                    <li><a href="https://youtu.be/lFdFSXNBVao" target="_blank" class="text-blue-600 hover:underline">6. Teratogenia y anomalías congénitas (Parte 4)</a></li>
+                    <li><a href="https://youtu.be/pdWVK0-yWn0" target="_blank" class="text-blue-600 hover:underline">6. Teratogenia y anomalías congénitas (Parte 5)</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Actividades: Cuestionarios tipo test tras cada vídeo</h3>
+                <ul class="list-disc pl-5 space-y-2 text-lg">
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeWl66_UilOBqQRLGC5tEg0JvCH5ZZ1CjhFs6meG2CkZpxIyQ/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 1</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyUPPQUAQelTejC9GNQhP_Z2_WsuHRwhdB1jwR14d7WR04hQ/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 2</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSdJ735pbImnNm1fKQ7scXkIN-IKgKQPg5uoOrXMaE7c2Zg/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 3</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc5txlrhKn1cXV4vBMg_e_HR1sXm4TYEIp6khdD57_2RB-tug/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 4</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdpGNdX5Br1EilsCODH6VI6dOGmlo-ITz3FT--6A8KbQ0GSQQ/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 5</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScltX9b5Gj0cG4S5qoTTEwnYeuo0Xdszq0qK0p29N2fDq_Q8w/viewform?usp=header" target="_blank" class="text-blue-600 hover:underline">Cuestionario Vídeo 6 (Teratogenia)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Fase 2: Escape Room Educativo "La Clínica del Tiempo" -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold section-title section-title-text">FASE 2: Escape Room Educativo "La Clínica del Tiempo"</h2>
+            <div class="card">
+                <p class="text-lg text-gray-500 text-center">Contenido pendiente. Esta sección está lista para ser rellenada.</p>
+            </div>
+        </section>
+
+        <!-- Fase 3: Gamificación - Torneo Final -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold section-title section-title-text">FASE 3: Gamificación - Torneo Final</h2>
+            <div class="card">
+                <p class="text-lg text-gray-500 text-center">Contenido pendiente. Esta sección está lista para ser rellenada.</p>
+            </div>
+        </section>
+
+        <!-- Fase 4: Aprendizaje Colaborativo - Podcast/Infografía -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold section-title section-title-text">FASE 4: Aprendizaje Colaborativo - Podcast/Infografía</h2>
+            <div class="card">
+                <p class="text-lg text-gray-500 text-center">Contenido pendiente. Esta sección está lista para ser rellenada.</p>
+            </div>
+        </section>
+
+        <!-- Evaluación Final de la Unidad -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold section-title section-title-text">EVALUACIÓN FINAL DE LA UNIDAD</h2>
+            <div class="card">
+                <p class="text-lg text-gray-500 text-center">Contenido pendiente. Esta sección está lista para ser rellenada.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 md:p-8 text-center rounded-t-xl shadow-inner">
+        <p class="text-sm md:text-base">&copy; 2025 Unidad Docente Multiprofesional de Obstetricia y Ginecología de Las Palmas. Todos los derechos reservados.</p>
+        <p class="text-sm md:text-base mt-1">Creada y diseñada por Julia Jeppesen Gutiérrez.</p>
+    </footer>
+
+</body>
+</html>
